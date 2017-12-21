@@ -6,7 +6,7 @@ using std::endl;
 
 int main()
 {
-    cout << "People:\n\n";
+    cout << "List of People:\n\n";
 
     Person p1("Joe", "Bloggs");
     cout << "\t" << p1.ToString() << endl;
@@ -14,6 +14,9 @@ int main()
     Person p2("John", "Bloggs");
     cout << "\t" << p2.ToString() << endl;
     
+    Person p3("John", "Bloggs");
+    cout << "\t" << p3.ToString() << endl;
+
     cout << endl;
 
     return 0;
